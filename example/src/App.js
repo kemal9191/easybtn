@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'easybtn'
+import { Button } from 'easybtn'
 import 'easybtn/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <>
+<Button type="primary" />
+  <Button type="secondary" />
+  <Button type="danger" />
+  <Button type="warning" />
+</>
 }
 
 export default App

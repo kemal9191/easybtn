@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.primary{
+  color: white;
+  background-color: blue;
+}
+
+.secondary{
+  color: white;
+  background-color: grey;
+}
+
+.danger{
+  color: white;
+  background-color: red;
+}
+
+.warning{
+  color: white;
+  background-color: orange;
+}
